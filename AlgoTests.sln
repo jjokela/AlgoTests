@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33927.249
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoTests", "AlgoTests\AlgoTests.csproj", "{0B577866-02AA-4D26-9523-E83C3B6132A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D7F83A76-ABD0-41ED-B5F0-345C8F5936EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B577866-02AA-4D26-9523-E83C3B6132A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B577866-02AA-4D26-9523-E83C3B6132A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B577866-02AA-4D26-9523-E83C3B6132A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B577866-02AA-4D26-9523-E83C3B6132A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7F83A76-ABD0-41ED-B5F0-345C8F5936EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7F83A76-ABD0-41ED-B5F0-345C8F5936EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7F83A76-ABD0-41ED-B5F0-345C8F5936EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7F83A76-ABD0-41ED-B5F0-345C8F5936EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7C89D2F-61F5-4CDB-AF3B-7F0D5F46836D}
+	EndGlobalSection
+EndGlobal
