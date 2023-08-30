@@ -1,12 +1,11 @@
-﻿namespace Tests.Easy
-{
-    public class ContainsDuplicateTest
-    {
-        public bool ContainsDuplicate(int[] nums)
-        {
-            var setOfNumbers = new HashSet<int>(nums);
+﻿namespace Tests.Easy;
 
-            return nums.Length == setOfNumbers.Count;
-        }
+public class ContainsDuplicateTest
+{
+    public bool ContainsDuplicate(int[] nums)
+    {
+        var setOfNumbers = new HashSet<int>(nums);
+
+        return nums.Length == setOfNumbers.Count;
     }
 }

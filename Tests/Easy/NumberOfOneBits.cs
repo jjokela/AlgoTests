@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Tests.Easy;
 
-namespace Tests.Easy
+internal class NumberOfOneBits
 {
-    internal class NumberOfOneBits
+    public int HammingWeight(uint n)
     {
+        var count = 0;
+        while (n != 0)
+        {
+            count += (int)(n & 1);
+            n >>= 1;
+        }
+
+        return count;
     }
 }

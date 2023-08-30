@@ -1,12 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿namespace Tests.Easy;
 
-namespace Tests.Easy
+internal class ReverseLinkedList
 {
-    internal class ReverseLinkedList
-    {
-    }
 }
